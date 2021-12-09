@@ -7,8 +7,8 @@ export const Paginas = () => {
     return (
         <section>
             <Routes>
-            <Route path="/" exact components={Inicio}/>
-            <Route path="/productos" excat components={ProductosLista}/>
+            <Route path="/" element={<Inicio/>}/>
+            <Route path="/productos" element={<ProductosLista/>}/>
             </Routes>
         </section>
     )

@@ -362,3 +362,54 @@ header .cart span {
     height: 70px;
   }
 }
+
+/*----------------------DETALLE-PRODUCTO------------------*/
+.detalles{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 13rem 1rem 1rem 1rem;
+}
+.detalle .price{
+  font-size: 3rem;
+  width: 100%;
+  color: #23c084
+}
+.detalles .grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 350px;
+}
+
+.detalles img{
+  min-height: 300px;
+  object-fit: contain;
+  margin-top: -7rem;
+
+}
+.detalles button{
+  max-width: 300px;
+  margin:  1rem 0 0 0;
+  padding: 1rem 1rem;
+  border: none;
+  outline: 0;
+  background:rgb(30, 148, 79);
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*----------------------login----------------*/
+.login img {
+  margin-top: 8rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 115vh;
+}
